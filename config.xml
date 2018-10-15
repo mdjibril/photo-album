@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns 		= "https://www.w3.org/ns/widgets"
+		xmlns:gap	= "https://phonegap.com/ns/1.0"
+		id			= "com.kompanion"
+		version		= "1.0">
+
+	<name> Photo Album </name>
+
+	<description>
+		Student photo album project. This is an open source project
+	</description>
+
+	<author href="http://kompanion.com" email="thecreatorfirst@gmial.com">
+		Jibril D Muhammad
+	</author>
+
+	<preference name="permissions" value="none" />
+	<preference name="Splashscreen" value="screen" />
+	<preference name="SplashScreenDelay" value="5000" />
+  	<preference name="fullscreen" value="true" />
+  	<preference name="KeepRunning" value="false"/>
+	
+  	<access launch-external="yes" origin="tel:*" />
+	
+	<gap:plugin name="de.appplant.cordova.plugin.email-composer" />
+	<gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.0" />
+	<plugin name="cordova-plugin-splashscreen" source="npm" spec="5.0.2" />
+	<!--<plugin name="cordova-plugin-splashscreen" spec="5.0.2" />-->
+
+	<!--icons-->
+	<icon src="icon.png" />
+
+		<!--android-->
+		<icon src="res/icon/android/playstore-icon.png" gap:platform="android" gap:qualifier="hdpi" />
+		<icon src="res/icon/android/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+		<icon src="res/icon/android/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+		<icon src="res/icon/android/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+		<icon src="res/icon/android/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+		<icon src="res/icon/android/xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
+		<icon src="res/icon/android/xxxhdpi.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+
+		<!--ios-->
+		<icon src="res/icon/ios/Icon-App-20x20@1x" gap:platform="ios" width="20" height="20" />
+		<icon src="res/icon/ios/Icon-App-20x20@2x" gap:platform="ios" width="20" height="20" />
+		<icon src="res/icon/ios/Icon-App-29x29@1x" gap:platform="ios" width="29" height="29" />
+		<icon src="res/icon/ios/Icon-App-29x29@2x" gap:platform="ios" width="29" height="29" />
+		<icon src="res/icon/ios/Icon-App-40x40@1x" gap:platform="ios" width="40" height="40" />
+		<icon src="res/icon/ios/Icon-App-40x40@2x" gap:platform="ios" width="40" height="40" />
+		<icon src="res/icon/ios/Icon-App-57x57@1x" gap:platform="ios" width="57" height="57" />
+		<icon src="res/icon/ios/Icon-App-57x57@2x" gap:platform="ios" width="114" height="114" />
+		<icon src="res/icon/ios/Icon-App-72x72@1x" gap:platform="ios" width="72" height="72" />
+		<icon src="res/icon/ios/Icon-App-72x72@2x" gap:platform="ios" width="144" height="144" />
+
+	<!--splash-->
+	<splash src="splash.png" />
+
+		<!--android-->
+		<splash src="res/screen/android/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+		<splash src="res/screen/android/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+		<splash src="res/screen/android/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+		<splash src="res/screen/android/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+		<splash src="res/screen/android/xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
+
+		<!--ios-->
+		<splash src="res/screen/ios/Icon-App-20x20@1x" gap:platform="ios" width="20" height="20" />
+		<splash src="res/screen/ios/Icon-App-20x20@2x" gap:platform="ios" width="20" height="20" />
+		<splash src="res/screen/ios/Icon-App-29x29@1x" gap:platform="ios" width="29" height="29" />
+		<splash src="res/screen/ios/Icon-App-29x29@2x" gap:platform="ios" width="29" height="29" />
+		<splash src="res/screen/ios/Icon-App-40x40@1x" gap:platform="ios" width="40" height="40" />
+		<splash src="res/screen/ios/Icon-App-40x40@2x" gap:platform="ios" width="40" height="40" />
+		<splash src="res/screen/ios/Icon-App-57x57@1x" gap:platform="ios" width="57" height="57" />
+		<splash src="res/screen/ios/Icon-App-57x57@2x" gap:platform="ios" width="114" height="114" />
+		<splash src="res/screen/ios/Icon-App-72x72@1x" gap:platform="ios" width="72" height="72" />
+		<splash src="res/screen/ios/Icon-App-72x72@2x" gap:platform="ios" width="144" height="144" />
+
+</widget>
