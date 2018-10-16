@@ -15,9 +15,10 @@
 		Jibril D Muhammad
 	</author>
 
-	<content src="data/1021.html"/>
+	<content src="index.html"/>
+
 	<access origin="*"/>
-	<access origin="tel:*" launch-external="yes" />
+	<access origin="tel:*" launch-external="yes"/>
   	<access origin="mailto:*" launch-external="yes" />
 
 	<preference name="permissions" value="none" />
