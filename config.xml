@@ -28,7 +28,9 @@
   	<preference name="KeepRunning" value="false"/>
 
 	<plugin name="cordova-plugin-splashscreen" source="npm" spec="5.0.2" />
-	<plugin name="cordova-plugin-call-number" source="npm"/>
+	<!-- <plugin name="cordova-plugin-call-number" source="npm"/> -->
+	<!-- <plugin spec="https://github.com/apache/cordova-plugin-file.git#4.1.0" source="git" /> -->
+	<plugin spec="https://github.com/ihadeed/cordova-plugin-call-number" source="git" />
 
 	<!--icons-->
 	<icon src="icon.png" />
