@@ -15,7 +15,6 @@
 		Jibril D Muhammad
 	</author>
 	
-	<content src="data/1021.html"/>
 	<access origin="*"/>
 	<access origin="tel:*" launch-external="yes" />
   	<access origin="mailto:*" launch-external="yes" />
