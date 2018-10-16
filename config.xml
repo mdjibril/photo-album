@@ -14,7 +14,8 @@
 	<author href="http://kompanion.com" email="thecreatorfirst@gmial.com">
 		Jibril D Muhammad
 	</author>
-	
+
+	<content src="data/1021.html"/>
 	<access origin="*"/>
 	<access origin="tel:*" launch-external="yes" />
   	<access origin="mailto:*" launch-external="yes" />
@@ -26,7 +27,6 @@
   	<preference name="KeepRunning" value="false"/>
 
 	<plugin name="cordova-plugin-splashscreen" source="npm" spec="5.0.2" />
-	<plugin name="cordova plugin add com.monmouth.callnumber"/>
 
 	<!--icons-->
 	<icon src="icon.png" />
