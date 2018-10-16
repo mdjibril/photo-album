@@ -142,6 +142,21 @@
             padding-bottom: 5px;        
         }    
     </style>
+    <script type="text/javascript">
+        document.addeventListener("deviceready", onDeviceReady, false);
+
+        function onDeviceReady(){
+
+        }
+
+        function btnCall(){
+            window.plugins.CallNumber.callNumber(function()(alert("calling"); ),function(e),"12345678");
+        }
+
+        function otherCall(){
+            window.location.href="tel:12345678";
+        }
+    </script>
 </head>
 <body>
 	<div class="container">
@@ -182,7 +197,8 @@
                     </blockquote>
                 </li>
             </ul>
-            <a href="tel:+1-1800-555-5555" class="button button-positive">Call me</a>                    
+            <input type="button" id="btnCall" value="Call me" onclick="btnCall();" />
+            <input type="button" id="btnCall" value="Call me2" onclick="otherCall();" />                    
         </div>
         <div>
             <ul class="pager">
