@@ -28,6 +28,7 @@
   	<preference name="KeepRunning" value="false"/>
 
 	<plugin name="cordova-plugin-splashscreen" source="npm" spec="5.0.2" />
+	<plugin name="cordova-call" source="npm"/>
 
 	<!--icons-->
 	<icon src="icon.png" />
