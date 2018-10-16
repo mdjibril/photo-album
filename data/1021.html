@@ -181,7 +181,9 @@
                     A Friend In DEEN Is A Friend INDEED!
                     </blockquote>
                 </li>
-            </ul>                    
+            </ul>
+            <input type="button" href="tel:+1-800-555-1234" class="phone-number" value="1-800-555-1234" />
+                    
         </div>
         <div>
             <ul class="pager">
@@ -216,6 +218,12 @@
         // When the user clicks on <span> (x), close the modal
         span.onclick = function() { 
             modal.style.display = "none";
+        }
+        // Call a no
+        $('.phone-number').bind(click, function(e) {
+            e.preventDefault()
+            var phoneLink = $(e.currentTarget).attr('href');
+            window.open(phoneLink, '_system', 'location=yes');
         }
     </script>
 </body>
