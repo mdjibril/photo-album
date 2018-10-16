@@ -21,10 +21,10 @@
   	<preference name="fullscreen" value="true" />
   	<preference name="KeepRunning" value="false"/>
 	
-  	<access launch-external="yes" origin="tel:*" />
+	<access origin="tel:*" launch-external="yes" />
+  	<access origin="mailto:*" launch-external="yes" />
 
 	<plugin name="cordova-plugin-splashscreen" source="npm" spec="5.0.2" />
-	<!--<plugin name="cordova-plugin-splashscreen" spec="5.0.2" />-->
 
 	<!--icons-->
 	<icon src="icon.png" />
