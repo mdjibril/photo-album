@@ -90,6 +90,12 @@
             </div>
         </nav>
 	</div>
+	<script type="text/javascript" src="phonegap.js"></script>
+	<script type="text/javascript">
+        function callNumber() {
+            window.plugins.CallNumber.callNumber(function () { console.log("Success"); }, function (e) { console.log("Error " + e) }, "PhoneNumber");
+        }
+    </script>
 	<script type="text/javascript">
 		/*  ======================= SETUP ======================= */
 		var config = {
